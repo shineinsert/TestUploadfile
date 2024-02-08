@@ -1,0 +1,106 @@
+.container {
+  height: 51.875rem !important;
+}
+
+.headerStyle {
+  font-size: 5.625rem;
+  line-height: 6.5625rem;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e7e7e7;
+}
+.robotoFont {
+  font-family: "Roboto";
+}
+.fontSize-20 {
+  font-size: 1.25rem;
+}
+.second-number {
+  font-family: Roboto;
+  font-size: 1.125rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.09rem;
+  text-align: left;
+}
+.second-header {
+  font-size: 2.25rem;
+  line-height: 2.636875rem;
+  letter-spacing: 0.09rem;
+  text-align: left;
+  color: #c2c2c2;
+}
+.border-style {
+  border-bottom: solid;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.border-purple-color {
+  border-color: #603ebe;
+}
+.second-height {
+  height: 13.125rem;
+}
+.third-height {
+  height: 16.6875rem;
+}
+.fourth-height {
+  height: 14.875rem;
+}
+.purple-bg {
+  background: #5e3db3;
+}
+.grey-bg {
+  background: #f5f4f9;
+}
+.navy-bg {
+  background: #090c35;
+}
+.text-purple {
+  color: #8f6be8;
+}
+.atlet-pic {
+  width: 100%;
+  height: auto;
+  max-width: 42.375rem;
+  max-height: 59.375rem;
+  min-width: 32.375rem;
+  min-height: 58.25rem;
+}
+.basketball-pic {
+  width: 100%;
+  height: 100%;
+  max-width: 61.9375rem;
+  max-height: 50.9375rem;
+  min-width: 43.1875rem;
+  min-height: 35.5rem;
+}
+.pic-div {
+  left: 7%;
+  width: 50vw;
+  max-width: 50vw;
+}
+.pic-bas-div {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+  width: 50vw;
+  max-width: 50vw;
+  left: 40%;
+}
+.mt-9 {
+  margin-top: 9%;
+}
+.ml-15 {
+  margin-left: 15%;
+}
+@media screen and (max-width: 1300px) {
+  .pic-div {
+    left: -15%;
+    top: 3%;
+  }
+  .pic-bas-div {
+    right: 0%;
+    top: 170%;
+    left: 50%;
+  }
+}

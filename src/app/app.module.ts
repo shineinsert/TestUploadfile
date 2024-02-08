@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
-import { UploadService } from './core/uploadService';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
@@ -21,7 +20,7 @@ import { CommonModule } from '@angular/common';
     HttpClientModule,
     CommonModule
   ],
-  providers: [UploadService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
